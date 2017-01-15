@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
 public abstract class MovingObject : MonoBehaviour {
 
 	public float moveTime = 0.1f;
@@ -11,7 +10,6 @@ public abstract class MovingObject : MonoBehaviour {
 	private Rigidbody2D rb2d;
 	private float inverseMoveTime;
 
-	// Use this for initialization
 	protected virtual void Start ()
 	{
 		boxCollider = GetComponent<BoxCollider2D> ();

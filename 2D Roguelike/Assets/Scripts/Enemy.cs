@@ -50,6 +50,6 @@ public class Enemy : MovingObject {
 
 		animator.SetTrigger ("enemyAttack");
 
-		hitPlayer.LooseFood (playerDamage);
+		hitPlayer.LoseFood (playerDamage);
 	}
 }
